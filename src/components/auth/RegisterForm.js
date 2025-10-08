@@ -66,7 +66,7 @@ const RegisterForm = ({ onSuccess }) => {
       <CardHeader>
         <CardTitle className="text-center">Start Registration</CardTitle>
         <CardDescription className="text-center">
-          Create your account to begin the DID journey
+          Create your account to begin the process.
         </CardDescription>
       </CardHeader>
       <CardContent>

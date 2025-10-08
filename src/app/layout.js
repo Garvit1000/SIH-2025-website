@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'SAMRIDDHI',
-  description: 'Secure, decentralized identity management for tourists',
+  description: 'Secure, decentralized DBT Transfers for India',
 };
 
 export default function RootLayout({ children }) {

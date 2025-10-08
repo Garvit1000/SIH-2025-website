@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Shield, FileCheck, TrendingUp, Lock, Book } from 'lucide-react';
+import { Shield, FileCheck, TrendingUp, Lock, Book, Banknote } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -125,7 +125,7 @@ export default function Home() {
                         <Card>
                             <CardHeader>
                                 <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center mb-3">
-                                    <Book className="h-5 w-5 text-primary" />
+                                    <Banknote className="h-5 w-5 text-primary" />
                                 </div>
                                 <CardTitle>PFMS Integration</CardTitle>
                                 <CardDescription>

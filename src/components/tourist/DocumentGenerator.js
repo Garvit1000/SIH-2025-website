@@ -26,25 +26,25 @@ const DocumentGenerator = ({ userData, onGenerate }) => {
       required: ['fullName', 'dateOfBirth', 'nationality']
     },
     {
-      id: 'tourist_credentials',
-      title: 'Tourist Credentials',
-      description: 'Verified tourist information and credentials',
+      id: 'DBT_credentials',
+      title: 'DBT Credentials',
+      description: 'Verified DBT information and credentials',
       icon: FileText,
-      required: ['touristInfo']
+      required: ['DBT Info']
     },
     {
       id: 'verification_report',
       title: 'Verification Report',
       description: 'Complete verification status report',
       icon: FileText,
-      required: ['didCreated', 'vcIssued']
+      required: ['DBT_ID_Created', 'vcIssued']
     },
     {
-      id: 'travel_document',
-      title: 'Travel Document',
-      description: 'Travel authorization and details',
+      id: 'document',
+      title: ' Document',
+      description: 'Document authorization and details',
       icon: FileText,
-      required: ['touristInfo', 'accommodationAddress']
+      required: ['DBT_Info', 'accommodationAddress']
     }
   ];
 

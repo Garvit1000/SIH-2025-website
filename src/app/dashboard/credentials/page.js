@@ -120,7 +120,7 @@ export default function CredentialsPage() {
             <Card>
               <CardHeader className="pb-3">
                 <div className="flex items-center justify-between">
-                  <CardTitle className="text-sm font-medium">DID Status</CardTitle>
+                  <CardTitle className="text-sm font-medium">Fund Status</CardTitle>
                   <Shield className={`h-5 w-5 ${userData?.didCreated ? 'text-green-600' : 'text-yellow-600'}`} />
                 </div>
               </CardHeader>
@@ -243,7 +243,7 @@ export default function CredentialsPage() {
             <Card>
               <CardHeader>
                 <CardTitle>No Credentials Yet</CardTitle>
-                <CardDescription>You haven't issued any verifiable credentials yet</CardDescription>
+                <CardDescription>You have not issued any verifiable credentials yet</CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="text-center py-8">
